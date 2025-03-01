@@ -27,5 +27,11 @@ pipeline {
                 echo "This is 5th stage"
             }
         }
+         stage('sixth') {
+            steps {
+                echo "This is 6th stage"
+            }
+         }
     }
 }
+        
